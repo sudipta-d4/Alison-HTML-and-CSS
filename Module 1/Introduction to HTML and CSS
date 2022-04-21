@@ -4,3 +4,46 @@
 # page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web 
 # Applications. 
 
+# Guide to HTML:
+<!DOCTYPE html> - This is a declaration saying we are going to use HTML code inside of it
+<html> - We are including all our HTML code inside of it. The <> are HTML tags and there are opening and closing tags. I.E. Opening = <html> and Closing = </html>
+<head> - Head tag is the set up of the page but is invisble to the user. You can only see it if you go to view source on a browser. 
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- <h1 style="color: red;">Hey from HTML</h1> -->  - To add a comment
+</body>
+</html>
+
+# Quiz 1:
+
+# 1. Which of the following skills are taught in this course? Choose three.
+# HTML5, CSS3 & Flexbox
+
+# 2. True or False: Images can be integrated directly into a website.
+# True
+
+# 3. HTML and CSS are defined as which of the following? Choose one.
+# Tools ands syntaxes that allow you write code that can be interpreted by a browser.
+
+# 4. HTML stands for Hyper Text Markup ________. Fill in the blank.
+# Language
+
+# 5. True or False: HTML can do things just like any other popular programming language.
+# False. HTML is not a programming language as it is as HTML is used for structural purposes on a web page, not functional ones.
+
+# CSS Styles
+
+# There are three main ways that you can use CSS code: Inline, Internal and External.
+Inline - by using the style attribute inside HTML elements. I.E. <h1 style="color:blue;">A Blue Heading</h1>
+Internal - by using a <style> element in the <head> section. I>E. body {background-color: powderblue;}
+External - by using a <link> element to link to an external CSS file. I.E. <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+
+
