@@ -53,3 +53,5 @@ External - by using a <link> element to link to an external CSS file. I.E. <link
 <div>
 </div>
 
+# The more divs you have the more control you are going to have when it comes to selecting elements on the page. 
+
