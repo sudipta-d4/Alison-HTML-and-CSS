@@ -46,9 +46,10 @@ External - by using a <link> element to link to an external CSS file. I.E. <link
 # If you want to add social platform URL's on to your website then you should do:
 <a href="URL LINK" target="_blank">Instagram</a>
 
+# HTML Div 
 
+# In HTML, div and span tags are elements used to define parts of a document, so that they are identifiable when a unique classification is necessary.
 
-
-
-
+<div>
+</div>
 
