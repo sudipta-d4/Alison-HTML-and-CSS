@@ -41,6 +41,11 @@ Inline - by using the style attribute inside HTML elements. I.E. <h1 style="colo
 Internal - by using a <style> element in the <head> section. I>E. body {background-color: powderblue;}
 External - by using a <link> element to link to an external CSS file. I.E. <link rel="stylesheet" href="styles.css">
 
+# HTML Links
+
+# If you want to add social platform URL's on to your website then you should do:
+<a href="URL LINK" target="_blank">Instagram</a>
+
 
 
 
