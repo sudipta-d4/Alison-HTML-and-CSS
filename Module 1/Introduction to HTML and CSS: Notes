@@ -55,3 +55,29 @@ External - by using a <link> element to link to an external CSS file. I.E. <link
 
 # The more divs you have the more control you are going to have when it comes to selecting elements on the page. 
 
+# Quiz 2:
+
+# 1. What does the acronym, CSS stand for? Choose one.
+# Cascading Style Sheets
+
+# 2. The CSS code can be used in how many ways? Answer in numeric form.
+# 3 styles
+
+# 3. How many versions can be used for importing into a style sheet? Answer in numeric form.
+# 3 styles
+
+# 4. Which of the following line of HTML code will work? Choose three.
+<a href="menu.html">Menu</a>
+<a href="about.html">About</a>
+<a href="index.html">Home</a>
+
+# 5. The HTML Divs tag gives the ability to do which of the following? Choose two.
+# Organise and align content
+# Select an item and be specific about it 
+
+# Flexbox with Animations
+
+# The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.
+
+
+
