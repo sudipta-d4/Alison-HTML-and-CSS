@@ -13,3 +13,32 @@
   column-gap: 50px;
 }
 
+# CSS Fonts
+# In CSS there are five generic font families:
+
+# Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+# Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+# Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+# Cursive fonts imitate human handwriting.
+# Fantasy fonts are decorative/playful fonts.
+
+# All the different font names belong to one of the generic font families.
+
+# Examples:
+- Serif	are Times New Roman, Georgia or Garamond
+- Sans-serif are	Arial, Verdana or Helvetica
+- Monospace	are Courier New, Lucida Console or Monaco
+- Cursive	are Brush Script MT or Lucida Handwriting
+- Fantasy	are Copperplate or Papyrus
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
