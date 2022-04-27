@@ -95,12 +95,9 @@ External - by using a <link> element to link to an external CSS file. I.E. <link
 
 # Note: Negative values are not allowed.
 
-
-div {
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
 
 
