@@ -55,4 +55,19 @@
  # Refactoring CSS Code for More Specific Selectors
  # Refactoring means when you have code that can be improved
  
+ # Quiz 1: 
  
+ # 1. How many dimensions do you have in the CSS grid layout system? Answer in numeric form.
+ # Two-dimensional, therefore 2
+ 
+ # 2. True or False: The CSS grid is very identical to FLexbox. 
+ # True
+ 
+ # 3. 1FR in CSS grid means one ________ union. Fill in the blank.
+ # Fractional
+ 
+ # 4. Custom ________ is/are critical to giving a nice look and feel to your website. Fill in the blank.
+ # Fonts
+ 
+ # 5. Which of the following constitute the two common custom fonts discussed in this topic? Choose two.
+ # Roboto and Sans-serif
