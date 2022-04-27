@@ -118,4 +118,45 @@ margin-left: 80px;
 
 # Tip: Negative values are allowed.
 
+# Quiz 3: 
 
+# 1. True or False: We can add the height attribute on the HTML page.
+# True
+
+# 2. _________ is said to be the digital version of units of measurements like inches. Fill in the blank.
+# Pixel
+
+# 3. Which of the following represents an example code for the background colour? Choose one.
+# #11122b
+
+# 4. ____________ is a CSS 3 web layout model build directly into CSS. Fill in the blank.
+# Flexbox
+
+# 5. How many properties does CSS have for specifying the margin for each side of an element? Answer in numeric form.
+# There are 4 margin properties
+
+# Lesson Summary:
+
+# HTML and CSS are two vital tools used in building a real-world website 
+
+# Some of the core skills needed in building a professional website include: HTML 5, CSS 3, FlexBox, CSS Grid, and fonts 
+
+# HTML and CSS are tools and syntaxes that can be used to write codes that can be interpreted by browsers
+
+# Every webpage in the world has HTML 
+
+# HTML stands for Hypertext Markup Language. It provides a syntax for writing code so that the browsers can read it properly 
+
+# HTML allows you to wrap a structure around content. It allows you to designate positions and organizations to content 
+
+# CSS stands for Cascading Style Sheet. CSS uses style elements to organize the HTML codes 
+
+# Custom fonts can be used to align every piece of element on a web page using tools like Flexbox and CSS grid 
+
+# There are two items needed when building a website which is the browser and a text editor 
+
+# The Google Chrome browser is suitable while developing your website 
+
+# CSS plays an important role during g the development of a website 
+
+# Navigation elements in HTML take you to other pages when you click on them
