@@ -1,10 +1,13 @@
 # What are HTML and CSS?
 
-# HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the 
-# page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web 
-# Applications. 
+HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the 
+page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web 
+Applications. 
 
 # Guide to HTML:
+One of the first things you need to know is that HTML uses a tag-based system. These tags are what the browser reads to display what you have coded.
+One of the most basic HTML 5 skeletons you'll encounter is displayed below:
+
 <!DOCTYPE html> - This is a declaration saying we are going to use HTML code inside of it
 <html> - We are including all our HTML code inside of it. The <> are HTML tags and there are opening and closing tags. I.E. Opening = <html> and Closing = </html>
 <head> - Head tag is the set up of the page but is invisble to the user. You can only see it if you go to view source on a browser. 
@@ -17,26 +20,17 @@
 </body>
 </html>
 
-# Guide to CSS:
-/* This is a single-line comment */
+# Div Tags
+In HTML, div and span tags are elements used to define parts of a document, so that they are identifiable when a unique classification is necessary.
+The more divs you have the more control you are going to have when it comes to selecting elements on the page.
 
+<body>
+  <h1>Hi there again</h1>
 
-# Quiz 1:
-
-# 1. Which of the following skills are taught in this course? Choose three.
-# HTML5, CSS3 & Flexbox
-
-# 2. True or False: Images can be integrated directly into a website.
-# True
-
-# 3. HTML and CSS are defined as which of the following? Choose one.
-# Tools ands syntaxes that allow you write code that can be interpreted by a browser.
-
-# 4. HTML stands for Hyper Text Markup ________. Fill in the blank.
-# Language
-
-# 5. True or False: HTML can do things just like any other popular programming language.
-# False. HTML is not a programming language as it is as HTML is used for structural purposes on a web page, not functional ones.
+  <div>
+    My content goes here
+  </div>
+</body>
 
 # CSS Styles
 
@@ -45,19 +39,188 @@ Inline - by using the style attribute inside HTML elements. I.E. <h1 style="colo
 Internal - by using a <style> element in the <head> section. I>E. body {background-color: powderblue;}
 External - by using a <link> element to link to an external CSS file. I.E. <link rel="stylesheet" href="styles.css">
 
-# HTML Links
-
-# If you want to add social platform URL's on to your website then you should do:
-<a href="URL LINK" target="_blank">Instagram</a>
-
-# HTML Div 
-
-# In HTML, div and span tags are elements used to define parts of a document, so that they are identifiable when a unique classification is necessary.
-
+# Inline Components with the Span Tag
 <div>
+My first type of content
+<span>My amazing content</span>
+</div>   
+
+# Headings into Web Pages
+<h1></h1>
+
+# Multi Line Content with Paragraph Tags
+<p> My first type of content </p>
+
+# HTML Hyperlinks
+<div>
+  My great <a href="http://google.com">article</a>
 </div>
 
-# The more divs you have the more control you are going to have when it comes to selecting elements on the page. 
+or 
+
+<div>
+<a href="URL LINK" target="_blank">Instagram</a>
+</div>
+
+# Page Breaks with the Horizontal Rule Tag
+<hr>
+
+# Integrating Line Breaks into HTML Pages
+<h1> H1 <br> Tag <h1> 
+
+or
+
+<p>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+# Creating HTML Numbered Lists
+HTML is lists- ordered and unordered. Ordered lists use numbers while Unordered lists use bullet points. So, anytime you want to have an ordered list of items, use 
+the tag <ol>, and list each element within a nested <li> tag.
+
+<div>
+  <ol>
+    <li>My first point</li>
+    <li>My second point</li>
+    <li>My third point</li>
+  </ol>
+</div>
+
+Example: 
+
+<div>
+  <ol>
+    <li>My first point, with <a href="http//yahoo.com">reference materials</a></li>
+    <li>My second point</li>
+    <li>My third point</li>
+  </ol>
+</div>
+
+# Bullet Point Lists in HTML
+To do this, we will use a tag called <ul> which stands for unordered list. Inside this tag, we will list out elements with the <li> tag, same as coding ordered 
+lists.
+
+<div>
+  <ul>
+    <li>My first point, with <a href="http//yahoo.com">reference materials</a></li>
+    <li>My second point</li>
+    <li>My third point</li>
+  </ul>
+</div>
+
+# Bold HTML Styles
+As always, let's create a <div>, and put a paragraph of text inside. To make the first word bold, just add a <b> tag and close it off after "Lorem".
+
+<div>
+ <p>
+   <b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ </p>
+</div>
+
+Alternately, you can also use a tag called <strong> instead of <b>. If you refresh the browser, both the tags will produce identical results. However, there is a 
+subtle difference between the two. The <b> tag simply shows the content inside of its tag in bold, whereas <strong> is used to emphasize a specific word.
+
+# Italic Style for Text
+<i>Duis</i>
+
+# List of HTML Style Tags
+- Unordered: 
+<ul>
+  <li></li>
+</ul>
+
+- Mark:
+<ul>
+  <li>The <mark>marked</mark> text tag</li>
+</ul>
+
+- Small:
+<li>The <small>small</small> text tag</li>
+
+- Deleted:
+<li>The <del>deleted</del> text tag</li>
+
+- Inserted:
+<li>The <ins>inserted</ins> text tag</li>
+
+- Subscript:
+<li>The <sub>subscript</sub> text tag</li>
+
+- Superscript:
+<li>The <sup>superscript</sup> text tag</li>
+
+- Pre style:
+<li>The <pre>pre</pre> text tag</li>
+
+- Quotation:
+<li>The <q>quotation</q> text tag</li>
+
+# Add Images to Websites
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Mount_Kilimanjaro_Dec_2009_edit1.jpg" width="800" alt="Kilimanjaro">
+</div>
+
+# Mapping Links on Images
+<map name="ducklinks">
+  <area shape="rect" coords="0,0,25,25" alt="goes to google" href="http://google.com"></area>
+  <area shape="rect" coords="40,40,25,10" alt="goes to yahoo" href="http://yahoo.com"></area>
+  <area shape="circle" coords="125,75,50" alt="goes to devCamp" href="http://devcamp.com"></area>
+</map>
+
+# Custom Tags in HTML
+Let's say, you want to create a navigation element using your own tag. Let's also say you've named it <nav>. You can put it inside a <div>, and even have elements 
+nested inside it.
+
+A negative side to this is, for example, if you're working for a new client who doesn't trust you yet. If your code is put through an HTML validator, custom tags 
+will damage some of the validation because these validators only pass standard tags. However, this doesn't mean you should abandon these tags because many clients 
+won't bother much about the code as long as the functionality is what they desire. In such cases, these custom tags can give you a nice structure, and can make your 
+code more readable.
+
+<div>
+  <nav>
+    <h3>My Navigation Element</h3>
+  </nav>
+</div>
+
+# Comments to HTML Code
+/* This is a single-line comment */ in Visual Studio Cheatcode
+
+Actual:
+<div>
+  <!-- Start of nav -->
+  <widget>
+    <h3>My Navigation Element</h3>
+  </widget>
+  <!-- End of nav -->
+</div>
+
+# HTML IDs
+If you want to add an ID to an element on your site, go to that element, add the word "id" and give a unique name to it. This name should be inside double quotes, 
+and remain without a space character, but rather underscores or dashes instead.
+
+<body>
+  <div id="paragraph_one">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</body>
+
+# HTML Classes
+<div class="navigation-link">
+
+# Quiz 1:
+
+1. Which of the following skills are taught in this course? Choose three.
+HTML5, CSS3 & Flexbox
+
+2. True or False: Images can be integrated directly into a website.
+True
+
+3. HTML and CSS are defined as which of the following? Choose one.
+Tools ands syntaxes that allow you write code that can be interpreted by a browser.
+
+4. HTML stands for Hyper Text Markup ________. Fill in the blank.
+Language
+
+5. True or False: HTML can do things just like any other popular programming language.
+False. HTML is not a programming language as it is as HTML is used for structural purposes on a web page, not functional ones.
 
 # Quiz 2:
 
