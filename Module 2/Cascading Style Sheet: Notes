@@ -1,6 +1,6 @@
 # Introduction to CSS Grid
-# CSS grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently across browsers.
-# The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+- CSS grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently across browsers.
+- The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
 <div class="grid-container">
   <div class="grid-item">1</div>
@@ -14,13 +14,13 @@
 }
 
 # CSS Fonts
-# In CSS there are five generic font families:
+In CSS there are five generic font families:
 
-# Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
-# Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
-# Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
-# Cursive fonts imitate human handwriting.
-# Fantasy fonts are decorative/playful fonts.
+- Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+- Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+- Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+- Cursive fonts imitate human handwriting.
+- Fantasy fonts are decorative/playful fonts.
 
 # All the different font names belong to one of the generic font families.
 
@@ -43,6 +43,57 @@
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+# Custom Font Styles in CSS
+.highlight {
+  background-color: yellow;
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  text-decoration: underline line-through overline;
+  text-shadow: 5px 0 1px #b02626;
+}
+
+# Center Div Elements on a Page
+<div id="pricing-table">
+  <div class="package">
+    <h2>Package 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    <p>9.99/m</p>
+  </div>
+
+  <div class="package">
+    <h2>Package 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    <p>19.99/m</p>
+  </div>
+
+  <div class="package">
+    <h2>Package 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    <p>49.99/m</p>
+  </div>
+</div>
+
+.package {
+  background-color: #e8e8e8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-bottom: 10px solid green;
+  width: 200px;
+}
+
+#pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 # CSS Images on HTML
 <div class="banner-image">
 <img src="C:\Users\sudip\OneDrive\Documents\Alison - Learning\html-css\Logo\decamp-fantastic-fries-logo-white.png" alt="Logo">
@@ -53,24 +104,7 @@
  height: 100%;
  
  # Refactoring CSS Code for More Specific Selectors
- # Refactoring means when you have code that can be improved
- 
- # Quiz 1: 
- 
- # 1. How many dimensions do you have in the CSS grid layout system? Answer in numeric form.
- # Two-dimensional, therefore 2
- 
- # 2. True or False: The CSS grid is very identical to FLexbox. 
- # True
- 
- # 3. 1FR in CSS grid means one ________ union. Fill in the blank.
- # Fractional
- 
- # 4. Custom ________ is/are critical to giving a nice look and feel to your website. Fill in the blank.
- # Fonts
- 
- # 5. Which of the following constitute the two common custom fonts discussed in this topic? Choose two.
- # Roboto and Sans-serif
+ - Refactoring means when you have code that can be improved
 
 # CSS Animations
 
@@ -80,3 +114,213 @@
     text-decoration: none;
     transition: 0.5s;
 }
+
+or 
+
+#heading {
+  padding: 42px;
+  background-color: #e8e8e8;
+  -webkit-animation: myAnimation 5s infinite;
+  animation: myAnimation 5s infinite;
+}
+
+@-webkit-keyframes 'myAnimation' {
+  50% {
+    background-color: #d3d3d3;
+  }
+}
+
+@keyframes 'myAnimation' {
+  50% {
+    background-color: #d3d3d3;
+  }
+}
+
+# Inline CSS Styles
+<body>
+  <div style="font-size: 2em; color: blue; margin-top: 50px; position: absolute;">My Great Article</div>
+  
+<div class="paragraph_two" style="background-color: black; color: white; padding: 20px 40px 20px 40px;
+Padding takes in one or four different arguments. If you pass just one argument, all the four sides have the same amount of padding. When you pass in four arguments, 
+the first one is for the top, second for the right side, third for the bottom and fourth for the left side, respectively.
+
+<div class="paragraph_two" style="background-color: black; color: white; padding: 20px;">paragragh.</div>
+
+# Embedded CSS Styles
+<head>
+  <title>Embedded CSS</title>
+
+ <style>
+    body { background-color: blue; }
+
+    h1 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 2.5em;
+    }
+
+   p {
+      padding: 42px;
+      width: 300px;
+      color: red;
+   }
+ </style>
+</head>
+
+# CSS Best Practices with External Stylesheets
+<link href = "styles.css" rel = "stylesheet" >
+
+# Use CSS Selectors
+body {
+  font-family: sans-serif;
+  color: #ab3939;
+}
+
+#heading {
+  padding: 42px;
+  background-color: #e8e8e8;
+}
+
+#page-title {
+
+}
+
+.content {
+  font-size: 0.8em;
+  color: #767676;
+}
+
+Here, I'm changing the background color of the <div> area to a light grey, and also adding some padding around it. The background-color has a hexadecimal value, and 
+this is the most popular way to represent a color, as it gives you an endless choice of colors. You don't have to memorize these values, as you can use a color 
+picker tool to select the color you want, and it will generate the hexadecimal code for you. For the #page-title, I want a different font and a nice dark red for 
+the content. Below is how it appears on the browser.
+
+# Add a Background Image to a Website
+body {
+  font-family: sans-serif;
+  color: #ab3939;
+  background: url('.../.../img/teslas.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+# CSS Border Styles to HTML Elements
+#heading {
+  padding: 42px;
+  background-color: #e8e8e8;
+  border: 1px solid #333;
+}
+
+.content {
+  font-size: 0.8em;
+  color: #767676;
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-left: 10px solid #ab3939;
+}
+
+# Rounding Div Corners with Border Radius Styles
+<div id="sub">
+  <h3>My Subheading</h3>
+</div>
+
+#sub {
+  background-color: #e8e8e8;
+  margin-top: 10px;
+  padding: 5px 5px 5px 42px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+# Height and Width Attributes in CSS
+width: 300px; 
+width: 50%; 
+height: 200px; 
+
+# CSS Pseudo Class Selectors
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: #ab3939;
+}
+
+a:active {
+  color: blue;
+}
+
+# Implementing Ease In Animations with CSS
+.package {
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+  transition: background-color 500ms ease-out 1s;
+  background-color: #e8e8e8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-bottom: 10px solid green;
+  width: 200px;
+}
+
+# Customizing Bullet Points Using CSS
+To begin, start with a unordered list, represented by the tag <ul>. Then, create a class for it called content-bullets, and list items within it. Next, 
+open styles.css, and we'll define the style with a content-bullets selector.
+As a preliminary step, create some padding, about 40px, on the left side. Then, use the list-style attribute to choose the square option. Lastly, we'll increase the 
+font-size to 1.5em.
+
+.content-bullets {
+  padding-left: 40px;
+  font-size: 1.5em;
+  list-style: square;
+}
+
+# CSS Float Property to Align Page Elements
+<div id='blocks'>
+  <div class='block'></div>
+  <div class='block'></div>
+  <div class='block'></div>
+  <div class='block'></div>
+  <div class='block'></div>
+</div>
+
+#blocks {
+  position: absolute;
+}
+
+.block {
+  height: 140px;
+  width: 250px;
+  background-color: #ab3939;
+}
+
+float: left; 
+
+# Quiz 1: 
+ 
+ 1. How many dimensions do you have in the CSS grid layout system? Answer in numeric form.
+ Two-dimensional, therefore 2
+ 
+ 2. True or False: The CSS grid is very identical to FLexbox. 
+ True
+ 
+ 3. 1FR in CSS grid means one ________ union. Fill in the blank.
+ Fractional
+ 
+ 4. Custom ________ is/are critical to giving a nice look and feel to your website. Fill in the blank.
+ Fonts
+ 
+ 5. Which of the following constitute the two common custom fonts discussed in this topic? Choose two.
+ Roboto and Sans-serif
+
+  
