@@ -42,3 +42,17 @@
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+# CSS Images on HTML
+<div class="banner-image">
+<img src="C:\Users\sudip\OneDrive\Documents\Alison - Learning\html-css\Logo\decamp-fantastic-fries-logo-white.png" alt="Logo">
+</div>
+
+.banner-image img {
+ width: 216px;
+ height: 100%;
+ 
+ # Refactoring CSS Code for More Specific Selectors
+ # Refactoring means when you have code that can be improved
+ 
+ 
