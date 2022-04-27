@@ -71,3 +71,12 @@
  
  # 5. Which of the following constitute the two common custom fonts discussed in this topic? Choose two.
  # Roboto and Sans-serif
+
+# CSS Animations
+
+.links-wrapper > .navigation-link a {
+    font-family: "Quicksand", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
